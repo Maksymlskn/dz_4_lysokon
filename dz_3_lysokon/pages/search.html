@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">главная</a>
+                </li>
+                <li>
+                    <a href="../pages/authorization.html">авторизация</a>
+                </li>
+                <li>
+                    <a href="./registration.html">регистрация</a><br><br>
+                </li>
+            </ul> 
+        </nav>
+    </header>
+    <form action=" https://fom.in.ua/echo" method="get">
+        <main>
+            <h1 id="Поиск">Поиск</h1>
+            <div>
+                <p>Тип кузова</p>
+                <input type="checkbox" id="седан" name="кузов" value="седан">
+                <label for="седан">седан</label><br>
+                <input type="checkbox" id="универсал" name="кузов" value="универсал">
+                <label for="универсал">универсал</label><br>
+                <input type="checkbox" id="купе" name="кузов" value="купе">
+                <label for="купе">купе</label><br>
+                <input type="checkbox" id="внедорожник" name="кузов" value="внедорожник">
+                <label for="внедорожник">внедорожник</label><br>
+                <input type="checkbox" id="кабриолет" name="кузов" value="кабриолет">
+                <label for="кабриолет">кабриолет</label>
+            </div>
+            <div>
+                <p>Марка авто</p>
+                <input type="checkbox" id="honda" name="car brand" value="honda">
+                <label for="honda">honda</label><br>
+                <input type="checkbox" id="audi" name="car brandi" value="audi">
+                <label for="audi">audi</label><br>
+                <input type="checkbox" id="bmw" name="car brand" value="bmw">
+                <label for="bmw">bmw</label><br>
+                <input type="checkbox" id="mini" name="car brand" value="mini">
+                <label for="mini">mini</label><br>
+                <input type="checkbox" id="mersedes-benz" name="car brandz" value="mersedes-benz">
+                <label for="mersedes-benz">mersedes-benz</label><br>
+                <input type="checkbox" id="ford" name="car brand" value="ford">
+                <label for="ford">ford</label><br>
+                <input type="checkbox" id="lexus" name="car brands" value="lexus">
+                <label for="lexus">lexus</label><br>
+            </div>
+            <div>
+                <p>Страна производитель</p>
+                <input type="checkbox" id="япония" name="manufacturer country" value="японияa">
+                <label for="япония">япония</label><br>
+                <input type="checkbox" id="германия" name="manufacturer country" value="германия">
+                <label for="германия">германия</label><br>
+                <input type="checkbox" id="америка" name="аmanufacturer country" value="америка">
+                <label for="америка">америка</label><br>
+                <input type="checkbox" id="италия" name="manufacturer country" value="италия">
+                <label for="италия">италия</label><br>
+                <input type="checkbox" id="корея" name="manufacturer country" value="корея">
+                <label for="корея">корея</label><br>
+                <input type="checkbox" id="украина" name="manufacturer countryа" value="украина">
+                <label for="украина">украина</label><br>
+                <input type="checkbox" id="швеция" name="manufacturer country" value="швеция">
+                <label for="швеция">швеция</label><br>
+            </div>
+            <div>
+                <p>Стоимость</p>
+                <input type="number" id="at_price_form" placeholder="от" min="0" max="9999999">
+                <input type="number" placeholder="до" min="0" max="9999999">
+                <select name="currency" id="currency">
+                    <option value="usd">$</option>
+                    <option value="eur">€</option>
+                    <option value="uah">₴</option>
+                </select>
+            </div>
+            <div>
+                <p>Год выпуска</p>
+                <input type="checkbox" id="2022" name="год выпуска" value="2022">
+                <label for="2022">2022</label><br>
+                <input type="checkbox" id="2021" name="год выпуска" value="2021">
+                <label for="2021">2021</label><br>
+                <input type="checkbox" id="2020" name="год выпуска" value="2020">
+                <label for="2020">2020</label><br>
+                <input type="checkbox" id="2019" name="год выпуска" value="2019">
+                <label for="2019">2019</label><br>
+                <input type="checkbox" id="2018" name="год выпуска" value="2018">
+                <label for="2018">2018</label><br>
+                <input type="checkbox" id="2017" name="год выпуска" value="2017">
+                <label for="2017">2017</label><br>
+                <input type="checkbox" id="2016" name="год выпуска" value="2016">
+                <label for="2016">2016</label><br>
+                <input type="checkbox" id="2015" name="год выпуска" value="2015">
+                <label for="2015">2015</label><br>
+                <input type="checkbox" id="2014" name="год выпуска" value="2014">
+                <label for="2014">2014</label><br>
+                <input type="checkbox" id="2013" name="год выпуска" value="2013">
+                <label for="2013">2013</label><br>
+            </div>
+            <div>
+                <p>Состояние</p>
+                <input type="checkbox" id="новая" name="Состояние" value="новая">
+                <label for="новая">новая</label><br>
+                <input type="checkbox" id="битая" name="Состояние" value="битая">
+                <label for="битая">битая</label><br>
+                <input type="checkbox" id="в_кредите" name="Состояние" value="в_кредите">
+                <label for="в_кредите">в кредите</label><br>
+                <input type="checkbox" id="не_растаможеная" name="Состояние" value="не_растаможеная">
+                <label for="не_растаможеная">не растаможеная</label><br>
+                <input type="checkbox" id="б\у" name="Состояние" value="б\у">
+                <label for="б\у">б\у</label>
+            </div>
+            <div>
+                <p>Топливо</p>
+                <input type="checkbox" id="бензин" name="Топливо" value="бензин">
+                <label for="бензин">бензин</label>
+                <input type="checkbox" id="дизель" name="Топливо" value="дизель">
+                <label for="дизель">дизель</label>
+                <input type="checkbox" id="газ" name="Топливо" value="газ">
+                <label for="газ">газ</label>
+                <input type="checkbox" id="газ\бензин" name="Топливо" value="газ\бензин">
+                <label for="газ\бензин">газ\бензин</label>
+                <input type="checkbox" id="гибрид" name="Топливо" value="гибрид">
+                <label for="гибрид">гибрид</label>
+                <input type="checkbox" id="электро" name="Топливо" value="электро">
+                <label for="электро">электро</label>
+            </div>
+            <div>
+                <p>КПП</p>
+                <input type="checkbox" id="механика" name="механика" value="механика">
+                <label for="механика">механика</label>
+                <input type="checkbox" id="автомат" name="автомат" value="автомат">
+                <label for="автомат">автомат</label>
+                <input type="checkbox" id="типтроник" name="типтроник" value="типтроник">
+                <label for="типтроник">типтроник</label>
+                <input type="checkbox" id="робот" name="робот" value="робот">
+                <label for="робот">робот</label>
+                <input type="checkbox" id="вариатор" name="вариатор" value="вариатор">
+                <label for="вариатор">вариатор</label>
+            </div>
+            <div>
+                <p>Цвет кузова</p>
+                <label for="favcolor">Цвет кузова:</label>
+                <input type="color" id="favcolor" name="favcolor">
+            </div>
+            <div>
+                <p>Комфорт</p>
+                <input type="checkbox" id="бортовой_пк" name="Комфорт" value="бортовой_пк">
+                <label for="бортовой_пк">бортовой пк</label>
+                <input type="checkbox" id="кондиционер" name="Комфорт" value="кондиционер">
+                <label for="кондиционер">кондиционер</label>
+                <input type="checkbox" id="кожанный_салон" name="Комфорт" value="кожанный_салон">
+                <label for="кожанный_салон">кожанный салон</label>
+                <input type="checkbox" id="люк" name="Комфорт" value="люк">
+                <label for="люк">люк</label>
+                <input type="checkbox" id="парктроник" name="Комфорт" value="парктроник">
+                <label for="парктроник">парктроник</label>
+                <input type="checkbox" id="подогрев_сидений" name="Комфорт" value="подогрев_сидений">
+                <label for="подогрев_сидений">подогрев сидений</label><br><br>
+            </div>
+        </main>
+    <footer>
+        <input type="submit" value="Поиск"><br><br>
+        <a href="#Поиск">На верх</a>
+    </footer>
+</form>
+</body>
+</html>
