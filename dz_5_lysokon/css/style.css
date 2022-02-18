@@ -1,0 +1,89 @@
+/*
+h1 {
+    font-size: 80px;
+}
+
+p {font-size: 60px;
+}
+
+.about-us {
+    font-size: 39px;
+}
+
+.box {
+    font-size: 90px;
+}
+#certificate {
+    font-size: 50px;
+    
+}
+
+.box-100 {
+    font-size: 30px;
+    line-height: 50px;
+    /*font-family: "Times New Roman", serif; 
+    font-family: "Geneva", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 60px;
+    letter-spacing: 7px;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    color: red;
+}
+
+.body {
+    font-family: "Tahoma", sans-serif;
+
+}
+
+.box-50 {
+
+    font-size: 60px;
+    font-family: "Arial", sans-serif;
+    text-decoration: none;
+}
+
+.box-50-link {
+    text-decoration: none;
+}
+
+section {
+    font-size: 1000;
+}
+
+.foo {
+    color: yellow;
+}
+
+.box-div {
+    font-size: 36px;
+}
+
+.about .about-item {
+    font-size: 50px; 
+    color: red;
+} */
+
+.list {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    list-style: lower-roman inside; /*тоже самое что и выше*/
+    list-style: none;
+}
+
+
+
+
+
+
+
