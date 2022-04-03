@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+  
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: inline-block;
+    width: 33%;
+    
+}
+
+.box {
+    
+}
+
+.box .logo {
+    
+}
+
+.box .logo img {
+    
+}
+
+.box .title h3 {
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    
+ }
+   
+p {
+    width: 200px;
+    display: inline-block;
+    
+}
